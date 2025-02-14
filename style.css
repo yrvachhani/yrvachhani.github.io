@@ -1,3 +1,7 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;  /* Dark gray text */
+}
 /* Style for Projects Section */
 #projects {
     padding: 40px;
@@ -163,5 +167,60 @@ section {
 }
 body {
     background-color: #f5f5dc;
+}
+nav a:hover {
+    background-color: #0055aa; /* Slightly darker blue on hover */
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+button {
+    background-color: #ff6600; /* Vibrant orange */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #cc5500; /* Darker orange */
+    transition: 0.3s;
+}
+header {
+    background-color: #0077cc; /* Vibrant blue */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #004d99; /* Darker blue for contrast */
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+section {
+    padding: 50px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
 }
 
